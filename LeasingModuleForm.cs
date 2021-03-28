@@ -15,6 +15,11 @@ namespace OGM
         public LeasingModuleForm()
         {
             InitializeComponent();
+
+            dataGridView1[4, 0].Value = "Просмотреть";
+
         }
+
+
     }
 }
