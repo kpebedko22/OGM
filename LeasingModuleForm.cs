@@ -12,14 +12,21 @@ namespace OGM
 {
     public partial class LeasingModuleForm : Form
     {
-        public LeasingModuleForm()
+
+        private Form Owner;
+
+        public LeasingModuleForm(Form owner)
         {
             InitializeComponent();
+
+            Owner = owner;
 
             dataGridView1[4, 0].Value = "Просмотреть";
 
         }
 
-
-    }
+		private void LeasingModuleForm_FormClosed(object sender, FormClosedEventArgs e) {
+            Owner.Visible = true;
+        }
+	}
 }
