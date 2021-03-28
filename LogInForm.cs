@@ -27,9 +27,6 @@ namespace OGM {
 
 		private void button_Leasing_Click(object sender, EventArgs e) {
 			// открытие формы LeasingModuleForm
-			LeasingModuleForm form = new LeasingModuleForm(this);
-			this.Hide();
-			form.Visible = true;
 		}
 
 		private void button_Equipment_Click(object sender, EventArgs e) {
