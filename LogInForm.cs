@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace OGM {
-	public partial class Form1 : Form {
-		public Form1() {
+	public partial class LogInForm : Form {
+		public LogInForm() {
 			InitializeComponent();
 		}
 	}
